@@ -1,0 +1,78 @@
+Exercises:
+1. I used xCode for both coding and compiling. 
+Now I am using Atom for coding and terminal for compiling. I installed mac’s Xcode compiler to do it. I’m using Atom because its easier :)
+
+2. outcome will be respectively;
+
+0
+2
+4
+6
+8
+
+100
+93
+86
+79
+72
+65
+58
+51
+44
+37
+30
+23
+16
+9
+2
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+2
+4
+8
+16
+32
+64
+
+
+3. #include <stdio.h>
+int main(void) {
+
+int output;
+int count;
+
+for (count = 1; count <= 10; ++count) {
+  output = count * count;
+  printf("%d\n", output);
+
+}
+return 0;
+}
+
+
+4. #include <stdio.h>
+int main(void) {
+
+int row,column;
+
+for (row = 1; row <= 10; ++row) {
+    for (column = 1; column <= row; column++) {
+      printf("*");
+    }
+  printf("\n");
+}
+return 0;
+}
+
+
+5.

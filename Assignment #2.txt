@@ -1,0 +1,74 @@
+1. ‘/‘ operator Divides integers and floats differently. Integer division returns remainder and float division returns real number.
+
+2. ‘true’ is any non-zero number and ‘false’ is zero.
+
+3. Finalizing statements, initializing declarations, 
+
+4. int i = 0;
+     while (i < 10) {
+	i++;
+	printf("i is %d\n", i);
+}
+
+
+5. any non-zero value, usually 1 considered as ‘true’ for loops.
+
+6. When T greater than 32 and less than 212 it’ll print ‘water’
+
+7. it’ll print ‘yes’ one time.
+
+8. without curly braces for loop can have only 1 statement :)
+
+I would notice if you didn’t say ‘trick question’.
+
+a
+a
+a
+b
+c
+
+Exercise
+
+5.
+
+#include <stdio.h>
+
+int main()
+{
+	int day, i;
+
+	for(day = 1; day <= 6; day = day + 1)
+	{
+		printf("On the %d day of Christmas, ", day);
+		printf("my true love gave to me\n");
+		for(i = day; i > 0; i = i - 1)
+		{
+			if(i == 1)
+			{
+				if(day == 1) printf("A ");
+				else	printf("And a ");
+				printf("partridge in a pear tree.\n");
+			}
+			else if(i == 2) {
+				printf("Two turtledoves,\n");
+			}
+			else if(i == 3) {
+				printf("Three French hens,\n");
+			}
+			else if (i == 4) {
+				printf("Four calling birds,\n");
+			}
+			else if (i == 5 ) {
+				printf("Five golden rings,\n");
+			}
+			else if (i == 6) {
+				printf("Six geese a-laying,\n");
+			}
+			printf("\n");
+		}
+  }
+	return 0;
+}
+
+
+6.
